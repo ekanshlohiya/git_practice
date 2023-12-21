@@ -1,0 +1,25 @@
+Git commands:
+
+Adding files to staging area:
+i) add all files  ->  git add .
+ii) add specific files  ->  git add file1.txt file2.txt
+
+Commiting staged files:
+git commit -m "added or removed this"
+
+pushing to repo:
+git push
+
+checking current status:
+git status
+
+checking commit logs:
+git log
+
+finding commit id in short:
+git log --oneline
+
+how to rollback to some previous commit:
+i) git reset <commit_id>  ->  this will only restore the commits but not modify the actual files
+ii) git reset <commit_id> --hard  ->  this will restore the commits as well as restore the files as before
+
