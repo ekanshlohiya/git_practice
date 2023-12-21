@@ -42,4 +42,8 @@ merge temp branch to master:
 ->switch to master using git switch master
 ->git merge -m "merging temp to master" temp
 
+merge conflict: occurs when you want to merge two branches both have something different from each other. In that case you need to resolve conflict by opening the file and remove some portion that you dont want. The file would belong to something thing like branch1|MERGING. As soon as u resolve the conflicts and commit, it will switch back to your original branch ie branch1.
+
+
+
 
