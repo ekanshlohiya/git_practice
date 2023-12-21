@@ -23,3 +23,6 @@ how to rollback to some previous commit:
 i) git reset <commit_id>  ->  this will only restore the commits but not modify the actual files
 ii) git reset <commit_id> --hard  ->  this will restore the commits as well as restore the files as before
 
+want to amend the most recent commit:
+git commit -m "new message" --amend
+
