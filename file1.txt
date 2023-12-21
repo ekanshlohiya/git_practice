@@ -26,3 +26,17 @@ ii) git reset <commit_id> --hard  ->  this will restore the commits as well as r
 want to amend the most recent commit:
 git commit -m "new message" --amend
 
+create new branch:
+git branch <new branch name>
+
+switch to other branch:
+git switch <branch name>
+
+see all branches:
+git branch
+
+unstage files:
+git restore --staged <filename>
+
+
+
