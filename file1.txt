@@ -38,5 +38,8 @@ git branch
 unstage files:
 git restore --staged <filename>
 
+merge temp branch to master:
+->switch to master using git switch master
+->git merge -m "merging temp to master" temp
 
 
